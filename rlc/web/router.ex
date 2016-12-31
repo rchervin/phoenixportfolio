@@ -18,6 +18,8 @@ defmodule Rlc.Router do
 
     get "/", PageController, :index
     get "/about", AboutController, :index
+    get "/projects", AboutController, :projects
+    get "/contact", PageController, :contact
   end
 
   # Other scopes may use custom stacks.

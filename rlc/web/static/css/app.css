@@ -27,7 +27,11 @@ form.link, form.button {
 }
 
 /* Custom Styles */
-
+.jumbotron {
+  min-height: 500px;
+  text-align: center;
+  background: rgba(250, 218, 221, 0.4);
+}
 .pull-right {
   text-align: right;
 }
