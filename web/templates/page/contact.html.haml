@@ -1,2 +1,15 @@
 .jumbotron
-  %h1 This is how to get in touch with me.
+  .row.info
+    .col-sm-4.col-xs-12
+      = img_tag("/images/rails.png", class: 'img')
+    .col-sm-8.col-xs-12
+      %br
+      %h4 Email
+      %p= link('lanaganinc@gmail.com', to: 'mailto:lanaganinc@gmail.com')
+      %h4 Github
+      %p= link('github.com/rchervin', to: 'https://www.github.com/rchervin')
+      %h4 Social
+      %p
+        %ul
+          %li LI
+          %li CO
