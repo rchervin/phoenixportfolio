@@ -10,6 +10,7 @@ body, form, ul, table {
   margin-bottom: 20px;
   font-size: 16px;
   font-family: 'Roboto Slab', serif;
+  background: rgba(250, 218, 221, 0.2);
 }
 a {
   color: #FF0099;
