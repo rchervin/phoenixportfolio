@@ -9,7 +9,7 @@
 
     <title>Rachel Chervin</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One" rel="stylesheet">
   </head>
 
   <body>
@@ -35,7 +35,7 @@
       <footer role="footer">
         <div class="row">
           <div class="col-xs-6">&copy; Rachel Chervin 2016</div>
-          <div class="col-xs-6 pull-right"><a href="mailto:lanaganinc@gmail.com">lanaganinc@gmail.com</a></div>
+          <div class="col-xs-6 pull-right">contact: <a href="mailto:lanaganinc@gmail.com">lanaganinc@gmail.com</a></div>
         </div>
       </footer>
 
